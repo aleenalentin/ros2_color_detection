@@ -1,0 +1,11 @@
+LowerH: 78
+LowerS: 158
+LowerV: 124
+UpperH: 135
+UpperS: 255
+UpperV: 255
+qos_overrides./parameter_events.publisher.depth: 1000
+qos_overrides./parameter_events.publisher.durability: volatile
+qos_overrides./parameter_events.publisher.history: keep_last
+qos_overrides./parameter_events.publisher.reliability: reliable
+use_sim_time: false
