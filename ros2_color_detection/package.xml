@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_color_detection</name>
+  <version>0.0.0</version>
+  <author>Aleena Lentin</author>
+  <description>TODO: Package description</description>
+  <maintainer email="aleenathayankery@gmail.com">Aleena Lentin</maintainer>
+  <license>TODO: License declaration</license>
+
+   <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>libopencv-dev</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>libopencv-dev</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+
+  <export>
+  <build_type>ament_cmake</build_type>
+  </export>
+    
+</package>
