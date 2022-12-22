@@ -55,7 +55,7 @@ ros2 launch usb_cam demo_launch.py
 
 ```
 
-Note: You can load different color threshold using *rqt->Plugins->Configuration->Dynamic Reconfigure* plugin. Click on *image_converter* and you can see the parameters of this node.
+**Note**: You can load different color threshold using *rqt->Plugins->Configuration->Dynamic Reconfigure* plugin. Click on *image_converter* and you can see the parameters of this node.
 Open the YAML files from the config folder as shown in the following video. You can adjust and save  the threshold by using the same plugin.
 
 
