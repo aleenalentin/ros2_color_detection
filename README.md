@@ -14,7 +14,7 @@ This package depends on  usb_cam package.
 
 Install usb-cam package
 ```
-sudo apt-get install ros-<ros2-distro>-usb-cam
+sudo apt-get install ros-$ROS_DISTRO-usb-cam
 
 ```
 # To build the code
