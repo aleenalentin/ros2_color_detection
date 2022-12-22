@@ -182,6 +182,7 @@ class ColorDetection : public rclcpp::Node
 		
 		// detect the contours using cv2.CHAIN_APPROX_SIMPLE
 		cv::findContours( img_mask1, contours, hierarchy, cv::RETR_TREE, cv::CHAIN_APPROX_SIMPLE );
+		cv::imshow("Contours_Image", img_mask1);
 		
 		cv::Mat image_copy = cv_bridge::toCvShare(msg, "bgr8")->image.clone();
 		
@@ -213,7 +214,7 @@ class ColorDetection : public rclcpp::Node
 			
 			img_final = drawing + image_copy;
 			// draw contours on the original image
-			cv::imshow("Contours_Image", img_final);
+			cv::imshow("Final_Image", img_final);
 			//Add some delay in miliseconds
        	 		cv::waitKey(3);
               
