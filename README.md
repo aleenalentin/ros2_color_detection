@@ -30,6 +30,8 @@ git clone https://github.com/aleenalentin/ros2_color_detection.git
 
 cd ~/ros2_ws
 
+rosdep install -i --from-path src --rosdistro humble -y
+
 colcon build --packages-select ros2_color_detection
 
 . install/setup.bash
@@ -54,5 +56,10 @@ ros2 launch usb_cam demo_launch.py
 ```
 
 
+# Demo 
 
+Click on the following image to see the demo video
+
+
+[![Introduction Video](https://img.youtube.com/vi/ref2wBkOIQE/0.jpg)](https://youtu.be/ref2wBkOIQE)
 
